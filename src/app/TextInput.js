@@ -14,7 +14,7 @@ export default function TextInput() {
   };
 
   const handleButtonClick = () => {
-    const isNotKhodam = getRandomInteger(0, 1);
+    const isNotKhodam = getRandomInteger(-3, 1);
     if (isNotKhodam === 1) {
       const valueRandom = getRandomInteger(1, 500);
       const valuekhodam = dataKhodam[valueRandom]?.nama_kodam || "";
